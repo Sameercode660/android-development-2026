@@ -1,0 +1,138 @@
+# =============================================
+#   Android Development - Root .gitignore
+
+# =============================================
+
+
+# -----------------------------------------------
+# Gradle files
+# -----------------------------------------------
+.gradle/
+**/build/
+**/gradle/wrapper/gradle-wrapper.jar
+**/.gradle/
+
+
+# -----------------------------------------------
+# Android Studio / IntelliJ IDEA
+# -----------------------------------------------
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/gradle.xml
+**/.idea/assetWizardSettings.xml
+**/.idea/dictionaries/
+**/.idea/libraries/
+**/.idea/caches/
+**/.idea/modules.xml
+**/.idea/navEditor.xml
+
+
+# -----------------------------------------------
+# Local configuration files (sensitive!)
+# -----------------------------------------------
+**/local.properties
+**/keystore.properties
+**/*.keystore
+**/*.jks
+**/google-services.json
+**/google-services-staging.json
+**/GoogleService-Info.plist
+
+
+# -----------------------------------------------
+# Generated / Compiled files
+# -----------------------------------------------
+**/bin/
+**/gen/
+**/out/
+**/*.apk
+**/*.aab
+**/*.ap_
+**/*.dex
+**/*.class
+**/*.aar
+
+
+# -----------------------------------------------
+# ProGuard / R8
+# -----------------------------------------------
+**/proguard/
+**/*.pro.bak
+
+
+# -----------------------------------------------
+# NDK / CMake
+# -----------------------------------------------
+**/.externalNativeBuild/
+**/cmake-build-debug/
+**/cmake-build-release/
+**/.cxx/
+
+
+# -----------------------------------------------
+# Lint & Test Reports
+# -----------------------------------------------
+**/lint/
+**/lint-results*.xml
+**/lint-results*.html
+**/test-results/
+**/reports/
+
+
+# -----------------------------------------------
+# Kotlin / Java
+# -----------------------------------------------
+**/*.kotlin_module
+**/__pycache__/
+
+
+# -----------------------------------------------
+# OS-specific
+# -----------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+
+# -----------------------------------------------
+# Version control
+# -----------------------------------------------
+**/*.orig
+
+
+# -----------------------------------------------
+# Dependency directories
+# -----------------------------------------------
+node_modules/
+
+
+# -----------------------------------------------
+# Firebase / Crashlytics
+# -----------------------------------------------
+**/fabric.properties
+
+
+# -----------------------------------------------
+# Signing configs (keep these private!)
+# -----------------------------------------------
+**/release/
+**/*-release.apk
+**/*-release.aab
